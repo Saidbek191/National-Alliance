@@ -186,7 +186,6 @@ ol {
 	background-image: repeating-conic-gradient(from 896deg, rgb(251, 161, 1), rgb(251, 251, 249) 0%, #ffffff 7.56%, #0cae03 8.4%, rgb(11, 203, 0) 14.71%, rgb(75, 50, 220) 20.17%, rgb(29, 0, 161) 31.51%, rgb(255, 187, 0) 50.84%, rgb(4, 22, 140) 70.17%, rgb(7, 49, 166) 82.77%, rgb(234, 7, 5) 87.39%, rgb(234, 19, 19) 95.38%), linear-gradient(120deg, #ee8425, rgb(195, 12, 12) 65.13%, #f9488b);
 }
 
-/* buttons */
 
 .ThemeFlipIcon_icon__dAwiN {
 	cursor: pointer;
@@ -205,11 +204,17 @@ ol {
 
 }
 
-/* .ThemeFlipIcon_icon__dAwiN:hover {
+
+
+ /* .ThemeFlipIcon_icon__dAwiN:hover {
+
+.ThemeFlipIcon_icon__dAwiN:hover {
+
     box-shadow: var(--shadow-elevation-medium);
     transform: scale(1);
     transition:color var(--hover-up), box-shadow var(--hover-up), transform var(--hover-up)
-} */
+}*/
+
 
 .icone-box {
 	display: flex;
@@ -244,12 +249,12 @@ path:hover {
 
 .site-btn {
 	font-size: 16px;
-	/* color: #ffffff; */
+	 color: #ffffff;
 	font-weight: 600;
 	border: none;
 	padding: 10px 40px 12px;
 	border-radius: 50px;
-}
+} */
 
 /* Preloder */
 
@@ -335,12 +340,17 @@ path:hover {
 	border-bottom: 1px solid #e5e5e5;
 }
 
+.header__section {
+	padding: 12px 0 0 0;
+}
+
 .mainmenu {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	/* padding: 10px 0 0 0; */
+
 }
+
 
 .mainmenu ul li {
 	display: inline-block;
@@ -370,6 +380,10 @@ path:hover {
 	transition: all 0.3s;
 }
 
+.icone-box {
+	display: flex;
+	align-items: center;
+}
 
 
 .nav-menu .mainmenu ul li .dropdown li {
@@ -407,6 +421,7 @@ path:hover {
 	visibility: visible;
 	top: 100%;
 }
+
 
 .nav-menu .mainmenu ul li a {
 	font-size: 10px;
@@ -455,21 +470,11 @@ path:hover {
 	padding: 4rem 0;
 }
 
-/* .hero .hero__text {
-	padding-top: 184px;
-} */
 
 .hero__logo img {
 	flex: 1 1 auto;
 	width: 100%;
 	max-width: 500px;
-}
-
-.hero .hero-text,
-h2 {
-
-	/* font-weight: 900; */
-	/* letter-spacing: 5px; */
 }
 
 .hero .hero-text,
@@ -480,7 +485,6 @@ h2 {
 	font-weight: 400;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	/* padding: 0 0 0 80px; */
 }
 
 .button {
